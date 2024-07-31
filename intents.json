@@ -1,0 +1,164 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":[
+                "Hi",
+                "Hey",
+                "Hello",
+                "Good morning",
+                "Good afternoon"
+            ],
+            "responses": [
+                "Hello! How can I help you today?",
+                "Hi there! What can I do for you?",
+                "Hey! How's it going?",
+                "Good day! How can I assist you?"
+              ]
+        },
+        {
+            "tag": "farewell",
+            "patterns": [
+              "Bye",
+              "Goodbye",
+              "See you later",
+              "Take care"
+            ],
+            "responses": [
+              "Goodbye! Have a great day!",
+              "See you later! Take care!",
+              "Bye! It was nice talking to you!",
+              "Take care! See you soon!"
+            ]
+          },
+          {
+            "tag": "thanks",
+            "patterns": [
+              "Thanks",
+              "Thank you",
+              "Thanks a lot",
+              "Thank you very much"
+            ],
+            "responses": [
+              "You're welcome!",
+              "No problem!",
+              "Anytime!",
+              "My pleasure!"
+            ]
+          },
+          {
+            "tag": "hobbies",
+            "patterns": [
+              "What are your hobbies?",
+              "Do you have any hobbies?",
+              "What do you do for fun?"
+            ],
+            "responses": [
+              "I enjoy learning new things and helping people with their questions!",
+              "Reading and coding are some of my favorite activities.",
+              "I love exploring new information and assisting users like you!"
+            ]
+          },
+          {
+            "tag": "dreams",
+            "patterns": [
+              "Do you dream?",
+              "What are your dreams?",
+              "Can chatbots dream?"
+            ],
+            "responses": [
+              "I don't dream like humans do, but I aspire to be the best assistant I can be!",
+              "My 'dream' is to help users with their queries efficiently.",
+              "Chatbots don't dream, but I aim to continually improve and assist you better."
+            ]
+          },
+          {
+            "tag": "travel",
+            "patterns": [
+              "Do you travel?",
+              "Have you been to any places?",
+              "Can you tell me about your travels?"
+            ],
+            "responses": [
+              "I don't travel, but I can help you learn about different places!",
+              "While I can't visit places, I can provide information on various destinations.",
+              "I explore the world through data and can share interesting facts about many locations."
+            ]
+          },
+          {
+            "tag": "technology",
+            "patterns": [
+              "What is the latest in technology?",
+              "Tell me about new tech trends.",
+              "What's happening in the tech world?"
+            ],
+            "responses": [
+              "The tech world is buzzing with AI advancements and smart gadgets.",
+              "Recent tech trends include AI, blockchain, and quantum computing.",
+              "Technology is evolving rapidly with innovations in AI, VR, and IoT."
+            ]
+          },
+          {
+            "tag": "music",
+            "patterns": [
+              "Do you like music?",
+              "What kind of music do you like?",
+              "Can you suggest some good music?"
+            ],
+            "responses": [
+              "I don't listen to music, but I can suggest popular genres and artists!",
+              "Music is fascinating! Popular genres include pop, rock, and jazz.",
+              "How about trying some classical or lo-fi music for a change?"
+            ]
+          },
+          {
+            "tag": "books",
+            "patterns": [
+              "Do you read books?",
+              "Can you recommend a book?",
+              "What are some good books to read?"
+            ],
+            "responses": [
+              "I love books! How about trying 'To Kill a Mockingbird' or '1984'?",
+              "For a great read, I recommend 'Pride and Prejudice' or 'The Great Gatsby'.",
+              "If you enjoy science fiction, 'Dune' and 'The Hitchhiker's Guide to the Galaxy' are excellent choices."
+            ]
+          },
+          {
+            "tag": "programming_languages",
+            "patterns": [
+              "What is your favorite programming language?",
+              "Do you know any programming languages?",
+              "Can you suggest a programming language to learn?"
+            ],
+            "responses": [
+              "I work well with Python, it's great for beginners and versatile!",
+              "Python is my go-to, but JavaScript and Java are also popular choices.",
+              "For web development, JavaScript is fantastic. For data science, Python is ideal."
+            ]
+          },
+          {
+            "tag": "motivational_quote",
+            "patterns": [
+              "Can you share a motivational quote?",
+              "I need some motivation.",
+              "Tell me something inspiring."
+            ],
+            "responses": [
+              "Sure! 'The only way to do great work is to love what you do.' - Steve Jobs",
+              "Absolutely! 'Believe you can and you're halfway there.' - Theodore Roosevelt",
+              "Of course! 'The future belongs to those who believe in the beauty of their dreams.' - Eleanor Roosevelt"
+            ]
+          },
+          {
+            "tag": "no_answer",
+            "patterns": [],
+            "responses": [
+              "I'm not sure how to respond to that.",
+              "Can you please rephrase?",
+              "I didn't quite get that.",
+              "Could you clarify what you mean?"
+            ]
+          }
+    ]
+}
